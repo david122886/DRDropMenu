@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		639219CE17FFFB05009F986B /* DRDroplistMenu3.m in Sources */ = {isa = PBXBuildFile; fileRef = 639219CD17FFFB05009F986B /* DRDroplistMenu3.m */; };
+		63A9C08817F3D3B30048C583 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A9C08717F3D3B30048C583 /* ViewController2.m */; };
+		63A9C08B17F403260048C583 /* KGModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A9C08A17F403260048C583 /* KGModal.m */; };
+		63A9C08D17F404370048C583 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A9C08C17F404370048C583 /* QuartzCore.framework */; };
 		63CA264617F0253400841D57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CA264517F0253400841D57 /* UIKit.framework */; };
 		63CA264817F0253400841D57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CA264717F0253400841D57 /* Foundation.framework */; };
 		63CA264A17F0253400841D57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CA264917F0253400841D57 /* CoreGraphics.framework */; };
@@ -21,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		639219CC17FFFB05009F986B /* DRDroplistMenu3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRDroplistMenu3.h; sourceTree = "<group>"; };
+		639219CD17FFFB05009F986B /* DRDroplistMenu3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRDroplistMenu3.m; sourceTree = "<group>"; };
+		63A9C08617F3D3B30048C583 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		63A9C08717F3D3B30048C583 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		63A9C08917F403260048C583 /* KGModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGModal.h; sourceTree = "<group>"; };
+		63A9C08A17F403260048C583 /* KGModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGModal.m; sourceTree = "<group>"; };
+		63A9C08C17F404370048C583 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		63CA264217F0253400841D57 /* DRDropListMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRDropListMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63CA264517F0253400841D57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		63CA264717F0253400841D57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -44,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A9C08D17F404370048C583 /* QuartzCore.framework in Frameworks */,
 				63CA264617F0253400841D57 /* UIKit.framework in Frameworks */,
 				63CA264817F0253400841D57 /* Foundation.framework in Frameworks */,
 				63CA264A17F0253400841D57 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +68,7 @@
 		63CA263917F0253400841D57 = {
 			isa = PBXGroup;
 			children = (
+				63A9C08C17F404370048C583 /* QuartzCore.framework */,
 				63CA264B17F0253400841D57 /* DRDropListMenu */,
 				63CA264417F0253400841D57 /* Frameworks */,
 				63CA264317F0253400841D57 /* Products */,
@@ -83,12 +96,15 @@
 		63CA264B17F0253400841D57 /* DRDropListMenu */ = {
 			isa = PBXGroup;
 			children = (
+				63CA266817F0254200841D57 /* views */,
 				63CA265417F0253500841D57 /* AppDelegate.h */,
 				63CA265517F0253500841D57 /* AppDelegate.m */,
 				63CA265D17F0253500841D57 /* MainStoryboard.storyboard */,
 				63CA266017F0253500841D57 /* ViewController.h */,
 				63CA266117F0253500841D57 /* ViewController.m */,
 				63CA264C17F0253500841D57 /* Supporting Files */,
+				63A9C08617F3D3B30048C583 /* ViewController2.h */,
+				63A9C08717F3D3B30048C583 /* ViewController2.m */,
 			);
 			path = DRDropListMenu;
 			sourceTree = "<group>";
@@ -105,6 +121,17 @@
 				63CA265B17F0253500841D57 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63CA266817F0254200841D57 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				63A9C08917F403260048C583 /* KGModal.h */,
+				63A9C08A17F403260048C583 /* KGModal.m */,
+				639219CC17FFFB05009F986B /* DRDroplistMenu3.h */,
+				639219CD17FFFB05009F986B /* DRDroplistMenu3.m */,
+			);
+			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +203,9 @@
 				63CA265217F0253500841D57 /* main.m in Sources */,
 				63CA265617F0253500841D57 /* AppDelegate.m in Sources */,
 				63CA266217F0253500841D57 /* ViewController.m in Sources */,
+				63A9C08817F3D3B30048C583 /* ViewController2.m in Sources */,
+				63A9C08B17F403260048C583 /* KGModal.m in Sources */,
+				639219CE17FFFB05009F986B /* DRDroplistMenu3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +293,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DRDropListMenu/DRDropListMenu-Prefix.pch";
 				INFOPLIST_FILE = "DRDropListMenu/DRDropListMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +305,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DRDropListMenu/DRDropListMenu-Prefix.pch";
 				INFOPLIST_FILE = "DRDropListMenu/DRDropListMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,6 +330,7 @@
 				63CA266717F0253500841D57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
